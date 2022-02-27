@@ -18,7 +18,7 @@ Translator::~Translator(){
 
 /*
 Function Name: translateEnglishWord
-What it does: The purpose of this function is use a for loop to go through a word and if the current character equals the character next to it, call the 
+What it does: The purpose of this function is to use a for loop to go through a word and if the current character equals the character next to it, call the 
 translateDoubleCharacter, if not, call the translateStringCharacter.
 Parameters name and Data Type: string word
 Return value and type: Returns the translated word as a string data Type
