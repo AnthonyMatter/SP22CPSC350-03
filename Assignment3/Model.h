@@ -1,6 +1,7 @@
 /*
 File Name: Model.h
-This file declares the constructor, deconstructor, the string functions translateStringCharacter and translateDoubleCharacter, each with a char parameter type as well as a boolean function with a char parameter type.
+This file declares the constructor, deconstructor, the string functions translateStringCharacter and translateDoubleCharacter, each with a char parameter type as well 
+as a boolean function with a char parameter type.
 */
 using namespace std;
 #include <string>

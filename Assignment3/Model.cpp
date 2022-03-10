@@ -223,7 +223,8 @@ bool Model::isVowel(char c){
 
 /*
 Function Name: translateDoubleCharacter
-What it does: Checks if the char character is a vowel and then it checks whether it's upper or lowercase. If it's a vowel, return "squat"/"Squat" + the already called translateStringCharacter function. If it's not a vowel return "squa"/"Squa" + the already called translateStringCharacter function.
+What it does: Checks if the char character is a vowel and then it checks whether it's upper or lowercase. If it's a vowel, return "squat"/"Squat" + the already 
+called translateStringCharacter function. If it's not a vowel return "squa"/"Squa" + the already called translateStringCharacter function.
 Parameters name and Data Type: char c
 Return value and type: Returns a word as a string type
 */
