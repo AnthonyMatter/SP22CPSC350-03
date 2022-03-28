@@ -49,7 +49,7 @@ AStack<E>::~AStack(){
 }
 
 /*
-Template for Clear
+Template for Clear:
 This deletes the old stack and creates a new stack with the same fixed size.
 */
 template <typename E>
@@ -61,7 +61,7 @@ void AStack<E>::clear(){
 }
 
 /*
-Template for Push
+Template for Push:
 This pushes the value to the top of the stack, if the size of the stack is the same
 as the fixed size of the array, then the size of the array will double.
 */
@@ -90,7 +90,7 @@ for(int i = 0; i < StackSize - 1; i++){
 }
 
 /*
-Template for Peek
+Template for Peek:
 This returns the value at the top of the stack without removing the value from the
 stack.
 */
@@ -105,7 +105,7 @@ E AStack<E>::peek(){
 }
 
 /*
-Template for Pop
+Template for Pop:
 This returns the value at the top of the stack and also removes the value from the
 stack.
 */
@@ -119,7 +119,7 @@ E AStack<E>::pop(){
 }
 
 /*
-Template for topValue
+Template for topValue:
 This returns the value at the top of the stack.
 */
 template <typename E>
@@ -133,7 +133,7 @@ E AStack<E>::topValue(){
 }
 
 /*
-Template for length
+Template for length:
 This returns length of the stack.
 */
 template <typename E>
@@ -142,7 +142,7 @@ int AStack<E>::length(){
 }
 
 /*
-Template for FullList
+Template for FullList:
 This checks if the stack is full, if full then return true, else then return false.
 */
 template <typename E>
@@ -156,7 +156,7 @@ bool AStack<E>::FullList(){
 }
 
 /*
-Template for isEmpty
+Template for isEmpty:
 This checks if the stack is full, if full then return true, else then return false.
 */
 template <typename E>
